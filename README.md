@@ -30,5 +30,5 @@ The project analyzes a dataset to predict outcomes based on various features. It
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/project-data-mining.git
+   https://github.com/Rami-eyupoglu/data-mining-project.git
    cd project-data-mining
