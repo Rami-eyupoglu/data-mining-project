@@ -1,38 +1,34 @@
-# data-mining-project
-Usage
-Place the dataset file (dataSet.csv) in the appropriate directory.
-Open the project.ipynb file in Jupyter Notebook or any compatible IDE.
-Run the cells sequentially to preprocess the data, analyze it, and train machine learning models.
-Data Preprocessing
-The following steps are performed during data preprocessing:
+# Project Data Mining
 
-Handling Missing Values:
+This repository contains a data mining project that involves data preprocessing, exploratory data analysis, outlier detection, feature encoding, and machine learning model training and evaluation.
 
-Missing values in CREDIT_SCORE and ANNUAL_MILEAGE are filled with their respective means.
-Outlier Detection:
+## Table of Contents
 
-Z-Score method is used to detect outliers in CREDIT_SCORE, ANNUAL_MILEAGE, and SPEEDING_VIOLATIONS.
-IQR method is applied to cap outliers in numeric features.
-Feature Encoding:
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Preprocessing](#data-preprocessing)
+- [Machine Learning Models](#machine-learning-models)
+- [Results](#results)
+- [License](#license)
 
-Categorical features like GENDER, VEHICLE_TYPE, VEHICLE_YEAR, AGE, RACE, DRIVING_EXPERIENCE, EDUCATION, and INCOME are encoded using mappings.
-Machine Learning Models
-The following machine learning models are trained and evaluated:
+## Overview
 
-Logistic Regression
-Extra Trees Classifier
-Random Forest Classifier
-Decision Tree Classifier
-K-Nearest Neighbors
-Gradient Boosting Classifier
-AdaBoost Classifier
-Bagging Classifier
-XGBoost Classifier
-Support Vector Machine (SVM)
-Model Evaluation
-Models are evaluated using accuracy scores.
-A bar plot is generated to compare the accuracy of different models.
-Feature importance is visualized for the Random Forest Classifier.
-Results
-The best-performing model is displayed with its accuracy score.
-Classification reports are generated for each model to evaluate precision, recall, and F1-score.
+The project analyzes a dataset to predict outcomes based on various features. It includes steps for cleaning the data, handling missing values, encoding categorical variables, detecting and handling outliers, and training multiple machine learning models to evaluate their performance.
+
+## Features
+
+- Data cleaning and preprocessing
+- Exploratory data analysis with visualizations
+- Outlier detection using Z-Score and IQR methods
+- Feature encoding for categorical variables
+- Training and evaluation of multiple machine learning models
+- Feature importance visualization
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/project-data-mining.git
+   cd project-data-mining
